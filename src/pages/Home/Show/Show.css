@@ -1,0 +1,82 @@
+.show-page {
+  padding-top: 2rem;
+}
+
+.show-image {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.show-info {
+  padding-left: 2rem;
+}
+
+.category-badge {
+  font-size: 0.9rem;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+.show-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.show-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  color: var(--text-dark);
+  opacity: 0.8;
+  font-size: 1.1rem;
+}
+
+.show-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--text-dark);
+  margin-bottom: 2rem;
+}
+
+.show-tags {
+  margin-top: 1rem;
+}
+
+.episodes-section {
+  padding-top: 3rem;
+  border-top: 2px solid #f0f0f0;
+  margin-top: 3rem;
+}
+
+.section-header h3 {
+  color: var(--text-dark);
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .show-info {
+    padding-left: 0;
+    margin-top: 2rem;
+  }
+  
+  .show-title {
+    font-size: 2.5rem;
+  }
+  
+  .show-meta {
+    text-align: center;
+  }
+  
+  .meta-item {
+    justify-content: center;
+  }
+}
